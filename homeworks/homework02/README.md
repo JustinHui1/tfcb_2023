@@ -11,7 +11,7 @@ Replace the lines specified in _italics_ with your answers and save as a text fi
 
 Complete the interactive tutorial.
 
-_Did you hit any points of frustration, and if so, how could we improve the material to avoid that frustration?_
+I use a Windows computer and that seemed to make everything just a bit more difficult. It was frustrating in the beginning when we were unaware that the commands would be different between MacOS users and Windows users. The updated dev container was helpful and perhaps there should be a test script to run when we do software setup during Lecture 2.
 
 
 ## Problem 1
@@ -52,7 +52,14 @@ sequence.gb<br>
 slides<br>
 vader.txt<br>
 
-_Paste your SCRIPT here (not the output)_
+#!/bin/bash
+echo "My username is $USER" >../../homeworks/homework02/question01.txt
+echo "My home directory is $HOME" >>../../homeworks/homework02/question01.txt
+echo "The contents of the tfcb_2023/lectures/lecture04/ directory are" >>../../homeworks/homework02/question01.txt
+for i in `ls`
+do 
+    echo $i >>../../homeworks/homework02/question01.txt
+done
 
 
 ## Problem 2
@@ -75,6 +82,10 @@ tfcb_2023/homeworks/homework02/list.txt
 
 You can make the contents of those files whatever you want (hint: slide 9... )
 
-_Paste your SCRIPT here (not the output)_
+#!/bin/bash
+mkdir question02
+for i in `cat list.txt`
+    do echo $i >./question02/"file$i.txt"
+done
 
 
