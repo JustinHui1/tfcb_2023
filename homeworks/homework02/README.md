@@ -12,7 +12,7 @@ Replace the lines specified in _italics_ with your answers and save as a text fi
 
 Complete the interactive tutorial.
 
-I use a Windows computer and that seemed to make everything just a bit more difficult. It was frustrating in the beginning when we were unaware that the commands would be different between MacOS users and Windows users. The updated dev container was helpful and perhaps there should be a test script to run when we do software setup during Lecture 2.
+I use a Windows computer and that seemed to make everything just a bit more difficult. It was frustrating in the beginning when we were unaware that the commands would be different between MacOS users and Windows users. The updated dev container was helpful and perhaps there should be a test script/series of commands to run when we do software setup during Lecture 2.
 
 
 ## Problem 1
