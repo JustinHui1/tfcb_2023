@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Lecture 08
 
 For our next set of lectures, we'll use Python to explore some specific tools common in computational biology research.
